@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Materialize</title>
+      <meta charset="utf-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--#insert file="sections/-helloPage.html"-->
+      <!--#insert file="sections/-section2.html"-->
+      <!--#insert file="sections/-features.html"-->
+      <!--#insert file="sections/-carusel.html"-->
+      <!--#insert file="sections/-section3.html"-->
+      <!--#insert file="sections/-section4.html"-->
+     
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/fullHeight.js"></script>
+      <script type="text/javascript">
+        $('.fullHeight').fullHeight();
+      </script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+      $('.carousel').carousel({
+        dist: 0,
+        shift: 0,
+      });
+    });
+      </script>
+    </body>
+  </html>
+        

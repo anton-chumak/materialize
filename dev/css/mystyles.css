@@ -1,0 +1,19 @@
+.fullHeight{
+	background-size: cover;
+}
+.helloPage{
+	background-image: url(../img/hello.png);
+}
+.btn-flat i.large{
+	font-size: 4em;
+}
+.carousel .carousel-item {
+	width: 25%;
+}
+.p14{
+	font-size: 14px;
+	margin-bottom: 60px;
+}
+.row-pad{
+	padding-top: 5rem;
+}
